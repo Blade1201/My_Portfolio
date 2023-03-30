@@ -10,19 +10,6 @@
     margin: auto;
 }
 
-.padd-15{
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -15px;
-    margin-right: -15px;
-    position: relative;
-}
-
 .home{
     min-height: 100vh;
     display: flex;
@@ -66,6 +53,7 @@
 .hello{
     font-size: 28px;
     margin: 15px 0;
+    color: var(--text-black-900);
 }
 
 .hello span {
@@ -78,6 +66,7 @@
 .my-profession{
     font-size: 30px;
     margin: 15px 0;
+    color: var(--text-black-900);
 }
 
 .typing {
@@ -90,19 +79,13 @@
     color: var(--text-black-700);
 }
 
-.btn {
-    font-size: 16px;
-    font-weight: 500;
-    padding: 12px 35px;
-    background: var(--skin-color);
-    color: white;
-    border-radius: 40px;
-    display: inline-block;
-    white-space: nowrap;
-    border: none;
-    transition: all .3s ease;
-}
+@media screen and (max-width: 991px){
+    .home .home-img{
+        display: none;
+    }
 
-.btn:hover{
-    transform: scale(1.1);
+    .home .home-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
