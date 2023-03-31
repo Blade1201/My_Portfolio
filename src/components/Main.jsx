@@ -33,7 +33,7 @@ const Main = () => {
 
 
     const alternateStyles = document.querySelectorAll(".alternate-style");
-
+console.log(alternateStyles)
     function setActiveStyle(color) {
         for (let i = 0; i < alternateStyles.length; i++) {
             const style = alternateStyles[i];
@@ -226,7 +226,7 @@ const Main = () => {
                                                             2021-2023
                                                             <br/>
                                                             <i className="fa fa-school"></i>
-                                                            <a href="https://www.nyirszikszi.hu/" target="blank"> Nyíregyházi SZC Széchenyi István Technikum és Kollégium </a>
+                                                            <a href="https://www.nyirszikszi.hu/" target="blank">Nyíregyházi SZC Széchenyi István Technikum és Kollégium</a>
                                                         </h3>
                                                         <h4 className="timeline-title">
                                                             Szoftverfejlesztő és tesztelő
@@ -244,7 +244,7 @@ const Main = () => {
                                                             2023-2027
                                                             <br/>
                                                             <i className="fa fa-school"></i>
-                                                            <a href="https://inf.unideb.hu/" target="blank"> Debreceni Egyetem Informatikai Kar </a>
+                                                            <a href="https://inf.unideb.hu/" target="blank">Debreceni Egyetem Informatikai Kar</a>
                                                         </h3>
                                                         <h4 className="timeline-title">
                                                             Programtervező informatikus
@@ -271,7 +271,7 @@ const Main = () => {
                                                             2021-2023
                                                             <br/>
                                                             <i className="fa fa-school"></i>
-                                                            <a href="https://www.nyirszikszi.hu/" target="blank"> Nyíregyházi SZC Széchenyi István Technikum és Kollégium </a>
+                                                            <a href="https://www.nyirszikszi.hu/" target="blank">Nyíregyházi SZC Széchenyi István Technikum és Kollégium</a>
                                                         </h3>
                                                         <h4 className="timeline-title">
                                                             Szoftverfejlesztő és tesztelő
@@ -289,7 +289,7 @@ const Main = () => {
                                                             2023-2027
                                                             <br/>
                                                             <i className="fa fa-school"></i>
-                                                            <a href="https://inf.unideb.hu/" target="blank"> Debreceni Egyetem Informatikai Kar </a>
+                                                            <a href="https://inf.unideb.hu/" target="blank">Debreceni Egyetem Informatikai Kar</a>
                                                         </h3>
                                                         <h4 className="timeline-title">
                                                             Programtervező informatikus
@@ -301,8 +301,8 @@ const Main = () => {
                                                         </p>
                                                     </div>
                                                 </div>
+                                            </div>
                                         </div>
-                                    </div>
                                     </div>
                                 </div>
 
@@ -397,50 +397,6 @@ const Main = () => {
                                 </div>
                                 <h4> Email </h4>
                                 <p>romanholovacki@gmail.com</p>
-                            </div>
-                        </div>
-                        <h3 className="contact-title padd-15"> Küldjön Üzenetet</h3>
-                        <h4 className="contact-sub-title padd-15"> Gyorsan reagálok az üzenetekre </h4>
-
-                        <div className="row">
-                            <div className="contact-form padd-15">
-                                <div className="row">
-                                    <div className="form-item col-6 padd-15">
-                                        <div className="form-group">
-                                            <input type="text" className="form-control" placeholder="Név"/>
-                                        </div>
-                                    </div>
-
-                                    <div className="form-item col-6 padd-15">
-                                        <div className="form-group">
-                                            <input type="email" className="form-control" placeholder="Email"/>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                    <div className="row">
-                                        <div className="form-item col-12 padd-15">
-                                            <div className="form-group">
-                                                <input type="text" className="form-control" placeholder="Tárgy"/>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="row">
-                                        <div className="form-item col-12 padd-15">
-                                            <div className="form-group">
-                                                <textarea className="form-control" placeholder="Üzenet"></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="row">
-                                        <div className="form-item col-12 padd-15">
-                                            <div className="form-group">
-                                                <button type="submit" className="btn"> Üzenet Küldése </button>
-                                            </div>
-                                        </div>
-                                    </div>
                             </div>
                         </div>
                     </div>
