@@ -16,36 +16,6 @@ import Portfolio_6 from "../images/portfolio-6.jpg";
 
 const Main = () => {
 
-    document.addEventListener("DOMContentLoaded", () => {
-        const styleSwitcherToggle = document.querySelector(".style-switcher-toggler");
-        const styleSwitcher = document.querySelector(".style-switcher");
-
-        styleSwitcherToggle.addEventListener("click", () => {
-            styleSwitcher.classList.toggle("open");
-        });
-
-        window.addEventListener("scroll", () => {
-            if (styleSwitcher.classList.contains("open")) {
-                styleSwitcher.classList.remove("open");
-            }
-        });
-    });
-
-
-    const alternateStyles = document.querySelectorAll(".alternate-style");
-console.log(alternateStyles)
-    function setActiveStyle(color) {
-        for (let i = 0; i < alternateStyles.length; i++) {
-            const style = alternateStyles[i];
-            if (color === style.getAttribute("title")) {
-                style.removeAttribute("disabled");
-            } else {
-                style.setAttribute("disabled", "true");
-            }
-        }
-    }
-
-
 
     document.addEventListener("DOMContentLoaded", () => {
         const dayNight = document.getElementsByClassName("day-night")[0];
@@ -53,14 +23,14 @@ console.log(alternateStyles)
         dayNight.addEventListener("click", () => {
             dayNight.querySelector("i").classList.toggle("fa-sun");
             dayNight.querySelector("i").classList.toggle("fa-moon");
-            document.body.classList.toggle("dark");
+            document.body.classList.toggle("sun");
         });
 
         window.addEventListener("load", () => {
-            if (document.body.classList.contains("dark")) {
-                dayNight.querySelector("i").classList.add("fa-sun");
-            } else {
+            if (document.body.classList.contains("sun")) {
                 dayNight.querySelector("i").classList.add("fa-moon");
+            } else {
+                dayNight.querySelector("i").classList.add("fa-sun");
             }
         });
     });
@@ -407,19 +377,8 @@ console.log(alternateStyles)
 
             {/*Style Switcher Start*/}
             <div className="style-switcher">
-                <div className="style-switcher-toggler s-icon">
-                    <i className="fas fa-cog fa-spin"></i>
-                </div>
                 <div className="day-night s-icon">
                     <i className="fas"></i>
-                </div>
-                <h4> Témák </h4>
-                <div className="colors">
-                    <span className="color-1" onClick={()=> setActiveStyle("color-1")}></span>
-                    <span className="color-2" onClick={()=> setActiveStyle("color-2")}></span>
-                    <span className="color-3" onClick={()=> setActiveStyle("color-3")}></span>
-                    <span className="color-4" onClick={()=> setActiveStyle("color-4")}></span>
-                    <span className="color-5" onClick={()=> setActiveStyle("color-5")}></span>
                 </div>
             </div>
 
