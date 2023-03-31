@@ -94,7 +94,6 @@
 }
 
 .about .about-content .skills .skill-item h5{
-    line-height: 40px;
     font-weight: 600;
     font-size: 16px;
     color: var(--text-black-900);
@@ -102,9 +101,9 @@
 
 .about .about-content .skills .skill-item .progress{
     background-color: var(--bg-black-50);
-    height: 7px;
+    height: 6px;
     border-radius: 4px;
-    width: 100%;
+    width: 90%;
     position: relative;
 }
 
@@ -188,6 +187,10 @@
     font-size: 14px;
     margin-bottom: 12px;
     color: var(--text-black-700);
+}
+
+.about .about-content .timeline .timeline-date a{
+    color: var(--skin-color);
 }
 
 .about .about-content .timeline .timeline-date .fa{

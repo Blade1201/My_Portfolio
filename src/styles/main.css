@@ -114,6 +114,7 @@ ul{
     white-space: nowrap;
     border: none;
     transition: all .3s ease;
+    cursor: pointer;
 }
 
 .btn:hover{

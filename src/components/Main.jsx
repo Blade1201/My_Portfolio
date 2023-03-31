@@ -6,9 +6,9 @@ import "../styles/portfolio.css";
 import "../styles/contact.css";
 import "../styles/style-switcher.css";
 import Person from "../images/person.jpeg";
-import Portfolio_1 from "../images/portfolio-1.jpg";
-import Portfolio_2 from "../images/portfolio-2.jpg";
-import Portfolio_3 from "../images/portfolio-3.jpg";
+import Aaron_Air from "../images/Aaron-Air.png";
+import Gym_Website from "../images/Gym_Website.png";
+import Parallax_Scrolling from "../images/Parallax_Scrolling.png";
 import Portfolio_4 from "../images/portfolio-4.jpg";
 import Portfolio_5 from "../images/portfolio-5.jpg";
 import Portfolio_6 from "../images/portfolio-6.jpg";
@@ -149,7 +149,7 @@ const Main = () => {
                                                 <p> Email : <span> romanholovacki@gmail.com </span> </p>
                                             </div>
                                             <div className="info-item padd-15">
-                                                <p> Végzettség : <span> Programtervező informatikus </span> </p>
+                                                <p> Végzettség : <span> Szoftverfejlesztő és tesztelő </span> <span> Programtervező informatikus </span> </p>
                                             </div>
                                             <div className="info-item padd-15">
                                                 <p> Telefonszám : <span> +36 20 964 0267 </span> </p>
@@ -161,7 +161,8 @@ const Main = () => {
 
                                         <div className="row">
                                             <div className="button padd-15">
-                                                <a href="#" className="btn"> Önéletrajz letöltése </a>
+                                                <a href="https://drive.google.com/file/d/12N19eA7Rvm4RHzpTVVM4xn-Dc-Z65GwR/view?usp=share_link"
+                                                   target="blank" className="btn"> Önéletrajz letöltése </a>
                                             </div>
                                         </div>
 
@@ -169,26 +170,42 @@ const Main = () => {
                                     <div className="skills padd-15">
                                         <div className="row">
                                             <div className="skill-item padd-15">
-                                                <h5> CSS </h5>
+                                                <h5> React </h5>
                                                 <div className="progress">
-                                                    <div className="progress-in" style={{width: 80 + "%"}}></div>
-                                                    <div className="skill-percent">80%</div>
+                                                    <div className="progress-in" style={{width: 75 + "%"}}></div>
+                                                    <div className="skill-percent">75%</div>
                                                 </div>
                                             </div>
 
                                             <div className="skill-item padd-15">
                                                 <h5> JavaScript </h5>
                                                 <div className="progress">
-                                                    <div className="progress-in" style={{width: 66 + "%"}}></div>
-                                                    <div className="skill-percent">66%</div>
+                                                    <div className="progress-in" style={{width: 70 + "%"}}></div>
+                                                    <div className="skill-percent">70%</div>
                                                 </div>
                                             </div>
 
                                             <div className="skill-item padd-15">
-                                                <h5> HTML </h5>
+                                                <h5> HTML5 </h5>
                                                 <div className="progress">
                                                     <div className="progress-in" style={{width: 95 + "%"}}></div>
                                                     <div className="skill-percent">95%</div>
+                                                </div>
+                                            </div>
+
+                                            <div className="skill-item padd-15">
+                                                <h5> CSS </h5>
+                                                <div className="progress">
+                                                    <div className="progress-in" style={{width: 85 + "%"}}></div>
+                                                    <div className="skill-percent">85%</div>
+                                                </div>
+                                            </div>
+
+                                            <div className="skill-item padd-15">
+                                                <h5> SASS </h5>
+                                                <div className="progress">
+                                                    <div className="progress-in" style={{width: 85 + "%"}}></div>
+                                                    <div className="skill-percent">85%</div>
                                                 </div>
                                             </div>
 
@@ -205,7 +222,11 @@ const Main = () => {
                                                     <div className="timeline-item">
                                                         <div className="circle-dot"></div>
                                                         <h3 className="timeline-date">
-                                                            <i className="fa fa-calendar"></i> 2021-2023
+                                                            <i className="fa fa-calendar"></i>
+                                                            2021-2023
+                                                            <br/>
+                                                            <i className="fa fa-school"></i>
+                                                            <a href="https://www.nyirszikszi.hu/" target="blank"> Nyíregyházi SZC Széchenyi István Technikum és Kollégium </a>
                                                         </h3>
                                                         <h4 className="timeline-title">
                                                             Szoftverfejlesztő és tesztelő
@@ -219,14 +240,19 @@ const Main = () => {
                                                     <div className="timeline-item">
                                                         <div className="circle-dot"></div>
                                                         <h3 className="timeline-date">
-                                                            <i className="fa fa-calendar"></i> 2021-2023
+                                                            <i className="fa fa-calendar"></i>
+                                                            2023-2027
+                                                            <br/>
+                                                            <i className="fa fa-school"></i>
+                                                            <a href="https://inf.unideb.hu/" target="blank"> Debreceni Egyetem Informatikai Kar </a>
                                                         </h3>
                                                         <h4 className="timeline-title">
-                                                            Szoftverfejlesztő és tesztelő
+                                                            Programtervező informatikus
                                                         </h4>
                                                         <p className="timeline-text">
-                                                            Olyan szakember, aki képes webes és asztali alkalmazást (szoftvert) tervezni, fejleszteni, tesztelni és dokumentálni.
-                                                            A programozási feladatokon túl adatbázisok tervezését és kezelését is elvégzi.
+                                                            Olyan szakember, aki képes szoftverorientált információs technológiai eszközök és
+                                                            rendszerek létrehozási, bevezetési, működtetési, szervizelési, fejlesztési és alkalmazási tevékenységét önállóan
+                                                            és csoportmunkában ellátni.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -241,7 +267,11 @@ const Main = () => {
                                                     <div className="timeline-item">
                                                         <div className="circle-dot"></div>
                                                         <h3 className="timeline-date">
-                                                            <i className="fa fa-calendar"></i> 2021-2023
+                                                            <i className="fa fa-calendar"></i>
+                                                            2021-2023
+                                                            <br/>
+                                                            <i className="fa fa-school"></i>
+                                                            <a href="https://www.nyirszikszi.hu/" target="blank"> Nyíregyházi SZC Széchenyi István Technikum és Kollégium </a>
                                                         </h3>
                                                         <h4 className="timeline-title">
                                                             Szoftverfejlesztő és tesztelő
@@ -255,14 +285,19 @@ const Main = () => {
                                                     <div className="timeline-item">
                                                         <div className="circle-dot"></div>
                                                         <h3 className="timeline-date">
-                                                            <i className="fa fa-calendar"></i> 2021-2023
+                                                            <i className="fa fa-calendar"></i>
+                                                            2023-2027
+                                                            <br/>
+                                                            <i className="fa fa-school"></i>
+                                                            <a href="https://inf.unideb.hu/" target="blank"> Debreceni Egyetem Informatikai Kar </a>
                                                         </h3>
                                                         <h4 className="timeline-title">
-                                                            Szoftverfejlesztő és tesztelő
+                                                            Programtervező informatikus
                                                         </h4>
                                                         <p className="timeline-text">
-                                                            Olyan szakember, aki képes webes és asztali alkalmazást (szoftvert) tervezni, fejleszteni, tesztelni és dokumentálni.
-                                                            A programozási feladatokon túl adatbázisok tervezését és kezelését is elvégzi.
+                                                            Olyan szakember, aki képes szoftverorientált információs technológiai eszközök és
+                                                            rendszerek létrehozási, bevezetési, működtetési, szervizelési, fejlesztési és alkalmazási tevékenységét önállóan
+                                                            és csoportmunkában ellátni.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -294,21 +329,21 @@ const Main = () => {
                             <div className="portfolio-item padd-15">
                                 <div className="portfolio-item-inner shadow-dark">
                                     <div className="portfolio-img">
-                                        <img src={Portfolio_1} alt="portfolio"/>
+                                        <a href="https://blade1201.github.io/Aaron-Air/" target="blank"> <img src={Aaron_Air} alt="portfolio"/></a>
                                     </div>
                                 </div>
                             </div>
                             <div className="portfolio-item padd-15">
                                 <div className="portfolio-item-inner shadow-dark">
                                     <div className="portfolio-img">
-                                        <img src={Portfolio_2} alt="portfolio"/>
+                                        <a href="https://blade1201.github.io/Gym_Website/" target="blank"> <img src={Gym_Website} alt="portfolio"/></a>
                                     </div>
                                 </div>
                             </div>
                             <div className="portfolio-item padd-15">
                                 <div className="portfolio-item-inner shadow-dark">
                                     <div className="portfolio-img">
-                                        <img src={Portfolio_3} alt="portfolio"/>
+                                        <a href="https://blade1201.github.io/Parallax_Scrolling/" target="blank"> <img src={Parallax_Scrolling} alt="portfolio"/></a>
                                     </div>
                                 </div>
                             </div>
