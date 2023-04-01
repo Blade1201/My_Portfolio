@@ -17,31 +17,32 @@ import Portfolio_6 from "../images/portfolio-6.jpg";
 const Main = () => {
 
 
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false)
 
     const handleToggle = () => {
-        setIsOpen(!isOpen);
-    };
+        setIsOpen(!isOpen)
+    }
 
     useEffect(() => {
         const handleScroll = () => {
             if (isOpen) {
-                setIsOpen(false);
+                setIsOpen(false)
             }
-        };
-        window.addEventListener("scroll", handleScroll);
+        }
+
+        window.addEventListener("scroll", handleScroll)
         return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, [isOpen]);
+            window.removeEventListener("scroll", handleScroll)
+        }
+    }, [isOpen])
 
 
 
 
-    const [activeStyle, setActiveStyle] = useState("default");
+    const [activeStyle, setActiveStyle] = useState("default")
 
     const handleStyleChange = (style) => {
-        setActiveStyle(style);
+        setActiveStyle(style)
     };
 
     const alternateStyles = {
@@ -60,41 +61,34 @@ const Main = () => {
         pink: {
             "--skin-color": "#f021b2",
         },
-    };
+    }
 
 
 
 
-    const [isDay, setIsDay] = useState(true);
-
-    useEffect(() => {
-        const bodyClassList = document.body.classList;
-        if (bodyClassList.contains("sun")) {
-            setIsDay(false);
-        }
-    }, []);
+    const [isDay, setIsDay] = useState(false)
 
     const handleClick = () => {
-        const icon = document.querySelector(".day-night i");
-        icon.classList.toggle("fa-sun");
-        icon.classList.toggle("fa-moon");
-        document.body.classList.toggle("sun");
-        setIsDay(!isDay);
-    };
+        const icon = document.querySelector(".day-night i")
+        icon.classList.toggle("fa-sun")
+        icon.classList.toggle("fa-moon")
+        document.body.classList.toggle("sun")
+        setIsDay(!isDay)
+    }
 
 
 
 
-    const [activeItem, setActiveItem] = useState("home");
+    const [activeItem, setActiveItem] = useState("home")
 
-    const handleItemClick = (e, { name }) => setActiveItem(name);
+    const handleItemClick = ( { name }) => setActiveItem(name)
 
     const menuItems = [
         { name: "home", label: "Kezdőlap", icon: "home" },
         { name: "about", label: "Rólam", icon: "user" },
         { name: "portfolio", label: "Munkáim", icon: "briefcase" },
         { name: "contact", label: "Elérhetőség", icon: "comments" },
-    ];
+    ]
 
     const renderMenuItems = () =>
         menuItems.map(({ name, label, icon }) => (
@@ -102,13 +96,13 @@ const Main = () => {
                 <a
                     href={`#${name}`}
                     className={activeItem === name ? "active" : ""}
-                    onClick={(e) => handleItemClick(e, { name })}
+                    onClick={() => handleItemClick({name})}
                 >
                     <i className={`fa fa-${icon}`}></i>
                     {label}
                 </a>
             </li>
-        ));
+        ))
 
 
 
@@ -451,7 +445,7 @@ const Main = () => {
                     <i className="fas fa-cog fa-spin"></i>
                 </div>
                 <div className="day-night s-icon" onClick={handleClick}>
-                       <i className={`fas ${isDay ? "fa-sun" : "fa-moon"}`}></i>
+                       <i className={`fas ${isDay ? "fa-moon" : "fa-sun"}`}></i>
                 </div>
                 <h4> Témák </h4>
                 <div className="colors">
