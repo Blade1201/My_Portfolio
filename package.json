@@ -2,6 +2,8 @@
   "name": "portfolio",
   "version": "0.1.0",
   "homepage": "https://blade1201.github.io/My_Portfolio",
+  "author": "Holovacki Román (Blade1201)",
+  "license": "ISC",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -18,6 +20,13 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Blade1201/My_Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Blade1201/My_Portfolio/issues"
   },
   "eslintConfig": {
     "extends": [
