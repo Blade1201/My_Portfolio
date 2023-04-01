@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import "../styles/main.css";
 import "../styles/home.css";
 import "../styles/about.css";
@@ -17,23 +17,98 @@ import Portfolio_6 from "../images/portfolio-6.jpg";
 const Main = () => {
 
 
-    document.addEventListener("DOMContentLoaded", () => {
-        const dayNight = document.getElementsByClassName("day-night")[0];
+    const [isOpen, setIsOpen] = useState(false);
 
-        dayNight.addEventListener("click", () => {
-            dayNight.querySelector("i").classList.toggle("fa-sun");
-            dayNight.querySelector("i").classList.toggle("fa-moon");
-            document.body.classList.toggle("sun");
-        });
+    const handleToggle = () => {
+        setIsOpen(!isOpen);
+    };
 
-        window.addEventListener("load", () => {
-            if (document.body.classList.contains("sun")) {
-                dayNight.querySelector("i").classList.add("fa-moon");
-            } else {
-                dayNight.querySelector("i").classList.add("fa-sun");
+    useEffect(() => {
+        const handleScroll = () => {
+            if (isOpen) {
+                setIsOpen(false);
             }
-        });
-    });
+        };
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, [isOpen]);
+
+
+
+
+    const [activeStyle, setActiveStyle] = useState("default");
+
+    const handleStyleChange = (style) => {
+        setActiveStyle(style);
+    };
+
+    const alternateStyles = {
+        default: {
+            "--skin-color": "#37b182",
+        },
+        red: {
+            "--skin-color": "#ec1839",
+        },
+        orange: {
+            "--skin-color": "#fa5b0f",
+        },
+        blue: {
+            "--skin-color": "#1854b4",
+        },
+        pink: {
+            "--skin-color": "#f021b2",
+        },
+    };
+
+
+
+
+    const [isDay, setIsDay] = useState(true);
+
+    useEffect(() => {
+        const bodyClassList = document.body.classList;
+        if (bodyClassList.contains("sun")) {
+            setIsDay(false);
+        }
+    }, []);
+
+    const handleClick = () => {
+        const icon = document.querySelector(".day-night i");
+        icon.classList.toggle("fa-sun");
+        icon.classList.toggle("fa-moon");
+        document.body.classList.toggle("sun");
+        setIsDay(!isDay);
+    };
+
+
+
+
+    const [activeItem, setActiveItem] = useState("home");
+
+    const handleItemClick = (e, { name }) => setActiveItem(name);
+
+    const menuItems = [
+        { name: "home", label: "Kezdőlap", icon: "home" },
+        { name: "about", label: "Rólam", icon: "user" },
+        { name: "portfolio", label: "Munkáim", icon: "briefcase" },
+        { name: "contact", label: "Elérhetőség", icon: "comments" },
+    ];
+
+    const renderMenuItems = () =>
+        menuItems.map(({ name, label, icon }) => (
+            <li key={name}>
+                <a
+                    href={`#${name}`}
+                    className={activeItem === name ? "active" : ""}
+                    onClick={(e) => handleItemClick(e, { name })}
+                >
+                    <i className={`fa fa-${icon}`}></i>
+                    {label}
+                </a>
+            </li>
+        ));
 
 
 
@@ -44,16 +119,11 @@ const Main = () => {
             {/*Aside Start*/}
             <div className="aside">
                 <div className="logo">
-                    <a href="#"> <span>P</span>ortfólió </a>
+                    <a style={alternateStyles[activeStyle]} href="#home"> <span>P</span>ortfólió </a>
                 </div>
-                <div className="nav-toggler">
-                    <span></span>
-                </div>
-                <ul className="nav">
-                    <li><a href="#home" className="active"><i className="fa fa-home"></i> Kezdőlap </a></li>
-                    <li><a href="#about"><i className="fa fa-user"></i> Rólam </a></li>
-                    <li><a href="#portfolio"><i className="fa fa-briefcase"></i> Munkáim </a></li>
-                    <li><a href="#contact"><i className="fa fa-comments"></i> Elérhetőség </a></li>
+
+                <ul className="nav" style={alternateStyles[activeStyle]}>
+                    <ul className="nav">{renderMenuItems()}</ul>
                 </ul>
             </div>
             {/*Aside End*/}
@@ -64,14 +134,14 @@ const Main = () => {
                     <div className="container">
                         <div className="row">
                             <div className="home-info padd-15">
-                                <h3 className="hello"> Üdvözlöm, a nevem <span className="name"> Holovacki Román </span></h3>
-                                <h3 className="my-profession"> Én egy <span className="typing"> Frontend fejlesztő </span> vagyok</h3>
+                                <h3 className="hello"> Üdvözlöm, a nevem <span style={alternateStyles[activeStyle]}> Holovacki Román </span></h3>
+                                <h3 className="my-profession"> Én egy <span className="typing" style={alternateStyles[activeStyle]}> Frontend fejlesztő </span> vagyok</h3>
                                 <p>Rendkívül szenvedélyes, aki olyan pozíciót keres,
                                     amelyben kreatív képességeit a vállalat javára fordíthatja.</p>
-                                <a href="#contact" className="btn hire-me"> Tudjon meg többet </a>
+                                <a href="#contact" className="btn" style={alternateStyles[activeStyle]}> Tudjon meg többet </a>
                             </div>
 
-                            <div className="home-img padd-15">
+                            <div className="home-img padd-15" style={alternateStyles[activeStyle]}>
                                 <img src={Person} alt="person"/>
                             </div>
 
@@ -84,7 +154,7 @@ const Main = () => {
                     <div className="container">
                         <div className="row">
                             <div className="section-title padd-15">
-                                <h2> Rólam </h2>
+                                <h2 style={alternateStyles[activeStyle]}> Rólam </h2>
                             </div>
                         </div>
 
@@ -93,7 +163,7 @@ const Main = () => {
                                 <div className="row">
                                     <div className="about-text padd-15">
                                         <h3> A nevem Holovacki Román, Frontend fejlesztő </h3>
-                                        <p>Alapképesítések:</p>
+                                        <p style={alternateStyles[activeStyle]}>Alapképesítések:</p>
                                         <p> Jó problémamegoldó képesség</p>
                                         <p> Készség csapatként dolgozni egy közös cél elérése érdekében</p>
                                         <p> A határidők betartásának képessége</p>
@@ -109,7 +179,7 @@ const Main = () => {
                                             <div className="info-item padd-15">
                                                 <p> Kor : <span> 22 </span> </p>
                                             </div>
-                                            <div className="info-item padd-15">
+                                            <div className="info-item padd-15" style={alternateStyles[activeStyle]}>
                                                <p> Weboldalak : <br/> <a href="https://www.linkedin.com/in/roman-holovacki/" target="blank"> Linkedin </a>
                                                    <a href="https://github.com/Blade1201" target="blank"> Github </a>
                                                    <a href="https://www.facebook.com/roman.holovacki/" target="blank"> Facebook </a>
@@ -131,13 +201,13 @@ const Main = () => {
 
                                         <div className="row">
                                             <div className="button padd-15">
-                                                <a href="https://drive.google.com/file/d/12N19eA7Rvm4RHzpTVVM4xn-Dc-Z65GwR/view?usp=share_link"
+                                                <a style={alternateStyles[activeStyle]} href="https://drive.google.com/file/d/12N19eA7Rvm4RHzpTVVM4xn-Dc-Z65GwR/view?usp=share_link"
                                                    target="blank" className="btn"> Önéletrajz letöltése </a>
                                             </div>
                                         </div>
 
                                     </div>
-                                    <div className="skills padd-15">
+                                    <div className="skills padd-15" style={alternateStyles[activeStyle]}>
                                         <div className="row">
                                             <div className="skill-item padd-15">
                                                 <h5> React </h5>
@@ -188,7 +258,7 @@ const Main = () => {
                                         <h3 className="title"> Végzettség </h3>
                                         <div className="row">
                                             <div className="timeline-box padd-15">
-                                                <div className="timeline shadow-dark">
+                                                <div className="timeline shadow-dark" style={alternateStyles[activeStyle]}>
                                                     <div className="timeline-item">
                                                         <div className="circle-dot"></div>
                                                         <h3 className="timeline-date">
@@ -233,7 +303,7 @@ const Main = () => {
                                         <h3 className="title"> Tapasztalat </h3>
                                         <div className="row">
                                             <div className="timeline-box padd-15">
-                                                <div className="timeline shadow-dark">
+                                                <div className="timeline shadow-dark" style={alternateStyles[activeStyle]}>
                                                     <div className="timeline-item">
                                                         <div className="circle-dot"></div>
                                                         <h3 className="timeline-date">
@@ -287,7 +357,7 @@ const Main = () => {
                     <div className="container">
                         <div className="row">
                             <div className="section-title padd-15">
-                                <h2> Portfólió </h2>
+                                <h2 style={alternateStyles[activeStyle]}> Portfólió </h2>
                             </div>
                         </div>
                         <div className="row">
@@ -295,7 +365,7 @@ const Main = () => {
                                 <h2> Projekteim: </h2>
                             </div>
                         </div>
-                        <div className="row">
+                        <div className="row" style={alternateStyles[activeStyle]}>
                             <div className="portfolio-item padd-15">
                                 <div className="portfolio-item-inner shadow-dark">
                                     <div className="portfolio-img">
@@ -347,12 +417,12 @@ const Main = () => {
                     <div className="container">
                         <div className="row">
                             <div className="section-title padd-15">
-                                <h2> Elérhetőségek </h2>
+                                <h2 style={alternateStyles[activeStyle]}> Elérhetőségek </h2>
                             </div>
                         </div>
-                        <h3 className="contact-title padd-15"> Maradtak még kérdései? </h3>
+                        <h3 className="contact-title padd-15" style={alternateStyles[activeStyle]}> Maradtak még kérdései? </h3>
                         <h4 className="contact-sub-title padd-15"> Keressen bátran </h4>
-                        <div className="row">
+                        <div className="row" style={alternateStyles[activeStyle]}>
                             <div className="contact-info-item padd-15">
                                 <div className="icon">
                                     <i className="fa fa-phone"></i>
@@ -376,12 +446,22 @@ const Main = () => {
             {/*Main Content End*/}
 
             {/*Style Switcher Start*/}
-            <div className="style-switcher">
-                <div className="day-night s-icon">
-                    <i className="fas"></i>
+            <div className={`style-switcher${isOpen ? " open" : ""}`}>
+                <div className="style-switcher-toggler s-icon" onClick={handleToggle}>
+                    <i className="fas fa-cog fa-spin"></i>
+                </div>
+                <div className="day-night s-icon" onClick={handleClick}>
+                       <i className={`fas ${isDay ? "fa-sun" : "fa-moon"}`}></i>
+                </div>
+                <h4> Témák </h4>
+                <div className="colors">
+                    <span className="color-1" onClick={() => handleStyleChange("red")}></span>
+                    <span className="color-2" onClick={() => handleStyleChange("orange")}></span>
+                    <span className="color-3" onClick={() => handleStyleChange("default")}></span>
+                    <span className="color-4" onClick={() => handleStyleChange("blue")}></span>
+                    <span className="color-5" onClick={() => handleStyleChange("pink")}></span>
                 </div>
             </div>
-
 
             {/*Style Switcher End*/}
 
