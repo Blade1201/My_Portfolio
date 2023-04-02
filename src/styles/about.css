@@ -220,6 +220,7 @@
 }
 
 @media screen and (max-width: 991px){
+    .about .about-content .experience,
     .about .about-content .education{
         flex: 0 0 100%;
         max-width: 100%;
