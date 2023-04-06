@@ -2,9 +2,9 @@ import React from 'react';
 import Aaron_Air from "../images/aaron-air.png";
 import Gym_Website from "../images/gym-website.png";
 import Parallax_Scrolling from "../images/parallax-scrolling.png";
-import Portfolio_4 from "../images/portfolio-4.jpg";
-import Portfolio_5 from "../images/portfolio-5.jpg";
-import Portfolio_6 from "../images/portfolio-6.jpg";
+import Menu_Scroll_Animation from "../images/menu-scroll-animation.png";
+import Attract_Hover_Effect from "../images/attract-hover-effect.png";
+import Mask_Button_Hover_Effect from "../images/mask-button-hover-effect.png";
 
 const Portfolio = ({alternateStyles, activeStyle}) => {
 
@@ -46,21 +46,21 @@ const Portfolio = ({alternateStyles, activeStyle}) => {
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
-                                <img src={Portfolio_4} alt="portfolio"/>
+                                <a href="https://blade1201.github.io/Menu_Scroll_Animation/" target="blank"> <img src={Menu_Scroll_Animation} alt="portfolio"/></a>
                             </div>
                         </div>
                     </div>
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
-                                <img src={Portfolio_5} alt="portfolio"/>
+                                <a href="https://blade1201.github.io/Attract_Hover_Effect/" target="blank"> <img src={Attract_Hover_Effect} alt="portfolio"/></a>
                             </div>
                         </div>
                     </div>
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
-                                <img src={Portfolio_6} alt="portfolio"/>
+                                <a href="https://blade1201.github.io/Mask_Button_Hover_Effect/" target="blank"> <img src={Mask_Button_Hover_Effect} alt="portfolio"/></a>
                             </div>
                         </div>
                     </div>
