@@ -116,24 +116,6 @@ const About = ({alternateStyles, activeStyle}) => {
                                                 <div className="circle-dot"></div>
                                                 <h3 className="timeline-date">
                                                     <i className="fa fa-calendar"></i>
-                                                    2021-2023
-                                                    <br/>
-                                                    <i className="fa fa-school"></i>
-                                                    <a href="https://www.nyirszikszi.hu/" target="blank">Nyíregyházi SZC Széchenyi István Technikum és Kollégium</a>
-                                                </h3>
-                                                <h4 className="timeline-title">
-                                                    Szoftverfejlesztő és tesztelő
-                                                </h4>
-                                                <p className="timeline-text">
-                                                    Olyan szakember, aki képes webes és asztali alkalmazást (szoftvert) tervezni, fejleszteni, tesztelni és dokumentálni.
-                                                    A programozási feladatokon túl adatbázisok tervezését és kezelését is elvégzi.
-                                                </p>
-                                            </div>
-
-                                            <div className="timeline-item">
-                                                <div className="circle-dot"></div>
-                                                <h3 className="timeline-date">
-                                                    <i className="fa fa-calendar"></i>
                                                     2023-2027
                                                     <br/>
                                                     <i className="fa fa-school"></i>
@@ -146,6 +128,24 @@ const About = ({alternateStyles, activeStyle}) => {
                                                     Olyan szakember, aki képes szoftverorientált információs technológiai eszközök és
                                                     rendszerek létrehozási, bevezetési, működtetési, szervizelési, fejlesztési és alkalmazási tevékenységét önállóan
                                                     és csoportmunkában ellátni.
+                                                </p>
+                                            </div>
+
+                                            <div className="timeline-item">
+                                                <div className="circle-dot"></div>
+                                                <h3 className="timeline-date">
+                                                    <i className="fa fa-calendar"></i>
+                                                    2021-2023
+                                                    <br/>
+                                                    <i className="fa fa-school"></i>
+                                                    <a href="https://www.nyirszikszi.hu/" target="blank">Nyíregyházi SZC Széchenyi István Technikum és Kollégium</a>
+                                                </h3>
+                                                <h4 className="timeline-title">
+                                                    Szoftverfejlesztő és tesztelő
+                                                </h4>
+                                                <p className="timeline-text">
+                                                    Olyan szakember, aki képes webes és asztali alkalmazást (szoftvert) tervezni, fejleszteni, tesztelni és dokumentálni.
+                                                    A programozási feladatokon túl adatbázisok tervezését és kezelését is elvégzi.
                                                 </p>
                                             </div>
                                         </div>
@@ -161,24 +161,6 @@ const About = ({alternateStyles, activeStyle}) => {
                                                 <div className="circle-dot"></div>
                                                 <h3 className="timeline-date">
                                                     <i className="fa fa-calendar"></i>
-                                                    2021-2023
-                                                    <br/>
-                                                    <i className="fa fa-school"></i>
-                                                    <a href="https://www.nyirszikszi.hu/" target="blank">Nyíregyházi SZC Széchenyi István Technikum és Kollégium</a>
-                                                </h3>
-                                                <h4 className="timeline-title">
-                                                    Szoftverfejlesztő és tesztelő
-                                                </h4>
-                                                <p className="timeline-text">
-                                                    Olyan szakember, aki képes webes és asztali alkalmazást (szoftvert) tervezni, fejleszteni, tesztelni és dokumentálni.
-                                                    A programozási feladatokon túl adatbázisok tervezését és kezelését is elvégzi.
-                                                </p>
-                                            </div>
-
-                                            <div className="timeline-item">
-                                                <div className="circle-dot"></div>
-                                                <h3 className="timeline-date">
-                                                    <i className="fa fa-calendar"></i>
                                                     2023-2027
                                                     <br/>
                                                     <i className="fa fa-school"></i>
@@ -191,6 +173,24 @@ const About = ({alternateStyles, activeStyle}) => {
                                                     Olyan szakember, aki képes szoftverorientált információs technológiai eszközök és
                                                     rendszerek létrehozási, bevezetési, működtetési, szervizelési, fejlesztési és alkalmazási tevékenységét önállóan
                                                     és csoportmunkában ellátni.
+                                                </p>
+                                            </div>
+
+                                            <div className="timeline-item">
+                                                <div className="circle-dot"></div>
+                                                <h3 className="timeline-date">
+                                                    <i className="fa fa-calendar"></i>
+                                                    2021-2023
+                                                    <br/>
+                                                    <i className="fa fa-school"></i>
+                                                    <a href="https://www.nyirszikszi.hu/" target="blank">Nyíregyházi SZC Széchenyi István Technikum és Kollégium</a>
+                                                </h3>
+                                                <h4 className="timeline-title">
+                                                    Szoftverfejlesztő és tesztelő
+                                                </h4>
+                                                <p className="timeline-text">
+                                                    Olyan szakember, aki képes webes és asztali alkalmazást (szoftvert) tervezni, fejleszteni, tesztelni és dokumentálni.
+                                                    A programozási feladatokon túl adatbázisok tervezését és kezelését is elvégzi.
                                                 </p>
                                             </div>
                                         </div>
