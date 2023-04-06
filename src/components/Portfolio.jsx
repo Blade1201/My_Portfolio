@@ -18,7 +18,7 @@ const Portfolio = ({alternateStyles, activeStyle}) => {
                 </div>
                 <div className="row">
                     <div className="portfolio-heading padd-15">
-                        <h2> Projekteim: </h2>
+                        <h2> Projektjeim: </h2>
                     </div>
                 </div>
                 <div className="row" style={alternateStyles[activeStyle]}>
