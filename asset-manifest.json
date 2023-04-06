@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/My_Portfolio/static/css/main.fac8c731.css",
-    "main.js": "/My_Portfolio/static/js/main.80a2a74a.js",
+    "main.css": "/My_Portfolio/static/css/main.0714f583.css",
+    "main.js": "/My_Portfolio/static/js/main.6299ae5c.js",
+    "static/media/mask-button-hover-effect.png": "/My_Portfolio/static/media/mask-button-hover-effect.c80f95474cb1cbe94902.png",
+    "static/media/attract-hover-effect.png": "/My_Portfolio/static/media/attract-hover-effect.33fb081e712abc6d5f03.png",
     "static/media/person.jpeg": "/My_Portfolio/static/media/person.f84eff54311c5c8c8acc.jpeg",
     "static/media/gym-website.png": "/My_Portfolio/static/media/gym-website.9b0bc224c96068226e7b.png",
     "static/media/parallax-scrolling.png": "/My_Portfolio/static/media/parallax-scrolling.44f1f78dc9e76f61f211.png",
+    "static/media/menu-scroll-animation.png": "/My_Portfolio/static/media/menu-scroll-animation.66b9e7663d801785f55d.png",
     "static/media/aaron-air.png": "/My_Portfolio/static/media/aaron-air.fc862d07b527ecbc3272.png",
-    "static/media/portfolio-4.jpg": "/My_Portfolio/static/media/portfolio-4.ebbd11fb001d335af299.jpg",
-    "static/media/portfolio-5.jpg": "/My_Portfolio/static/media/portfolio-5.d567d06745919ddf70b4.jpg",
-    "static/media/portfolio-6.jpg": "/My_Portfolio/static/media/portfolio-6.115a24ed5b198e62afed.jpg",
     "index.html": "/My_Portfolio/index.html",
-    "main.fac8c731.css.map": "/My_Portfolio/static/css/main.fac8c731.css.map",
-    "main.80a2a74a.js.map": "/My_Portfolio/static/js/main.80a2a74a.js.map"
+    "main.0714f583.css.map": "/My_Portfolio/static/css/main.0714f583.css.map",
+    "main.6299ae5c.js.map": "/My_Portfolio/static/js/main.6299ae5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.fac8c731.css",
-    "static/js/main.80a2a74a.js"
+    "static/css/main.0714f583.css",
+    "static/js/main.6299ae5c.js"
   ]
 }
