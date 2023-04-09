@@ -1,4 +1,5 @@
 import React from 'react';
+import Hopstop from "../images/hopstop.png";
 import Aaron_Air from "../images/aaron-air.png";
 import Gym_Website from "../images/gym-website.png";
 import Parallax_Scrolling from "../images/parallax-scrolling.png";
@@ -22,6 +23,13 @@ const Portfolio = ({alternateStyles, activeStyle}) => {
                     </div>
                 </div>
                 <div className="row" style={alternateStyles[activeStyle]}>
+                    <div className="portfolio-item padd-15">
+                        <div className="portfolio-item-inner shadow-dark">
+                            <div className="portfolio-img">
+                                <a href="https://blade1201.github.io/Hopstop/" target="blank"> <img src={Hopstop} alt="portfolio"/></a>
+                            </div>
+                        </div>
+                    </div>
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">

@@ -42,7 +42,7 @@ const About = ({alternateStyles, activeStyle}) => {
                                         <p> Email : <span> romanholovacki@gmail.com </span> </p>
                                     </div>
                                     <div className="info-item padd-15">
-                                        <p> Végzettség : <span> Szoftverfejlesztő és tesztelő </span> <span> Programtervező informatikus </span> </p>
+                                        <p> Végzettség : <span> Szoftverfejlesztő és tesztelő </span> <span> Gazdaságinformatikus </span> </p>
                                     </div>
                                     <div className="info-item padd-15">
                                         <p> Telefonszám : <span> +36 20 964 0267 </span> </p>
@@ -116,18 +116,18 @@ const About = ({alternateStyles, activeStyle}) => {
                                                 <div className="circle-dot"></div>
                                                 <h3 className="timeline-date">
                                                     <i className="fa fa-calendar"></i>
-                                                    2023-2027
+                                                    2025-2029
                                                     <br/>
                                                     <i className="fa fa-school"></i>
                                                     <a href="https://inf.unideb.hu/" target="blank">Debreceni Egyetem Informatikai Kar</a>
                                                 </h3>
                                                 <h4 className="timeline-title">
-                                                    Programtervező informatikus
+                                                    Gazdaságinformatikus
                                                 </h4>
                                                 <p className="timeline-text">
-                                                    Olyan szakember, aki képes szoftverorientált információs technológiai eszközök és
-                                                    rendszerek létrehozási, bevezetési, működtetési, szervizelési, fejlesztési és alkalmazási tevékenységét önállóan
-                                                    és csoportmunkában ellátni.
+                                                    Olyan szakember, aki képes a valós üzleti folyamatokban rejlő problémák megértésére és megoldására.
+                                                    Az infokommunikációs folyamatok és technológiák együttműködésen alapuló problémák feltárására, a problématér
+                                                    definiálására, alkalmazások fejlesztésére, működtetésére és a működés elvárt minőségének megfelelő felügyeletére.
                                                 </p>
                                             </div>
 
@@ -135,7 +135,7 @@ const About = ({alternateStyles, activeStyle}) => {
                                                 <div className="circle-dot"></div>
                                                 <h3 className="timeline-date">
                                                     <i className="fa fa-calendar"></i>
-                                                    2021-2023
+                                                    2023-2025
                                                     <br/>
                                                     <i className="fa fa-school"></i>
                                                     <a href="https://www.nyirszikszi.hu/" target="blank">Nyíregyházi SZC Széchenyi István Technikum és Kollégium</a>
@@ -161,18 +161,18 @@ const About = ({alternateStyles, activeStyle}) => {
                                                 <div className="circle-dot"></div>
                                                 <h3 className="timeline-date">
                                                     <i className="fa fa-calendar"></i>
-                                                    2023-2027
+                                                    2025-2029
                                                     <br/>
                                                     <i className="fa fa-school"></i>
                                                     <a href="https://inf.unideb.hu/" target="blank">Debreceni Egyetem Informatikai Kar</a>
                                                 </h3>
                                                 <h4 className="timeline-title">
-                                                    Programtervező informatikus
+                                                    Gazdaságinformatikus
                                                 </h4>
                                                 <p className="timeline-text">
-                                                    Olyan szakember, aki képes szoftverorientált információs technológiai eszközök és
-                                                    rendszerek létrehozási, bevezetési, működtetési, szervizelési, fejlesztési és alkalmazási tevékenységét önállóan
-                                                    és csoportmunkában ellátni.
+                                                    Olyan szakember, aki képes a valós üzleti folyamatokban rejlő problémák megértésére és megoldására.
+                                                    Az infokommunikációs folyamatok és technológiák együttműködésen alapuló problémák feltárására, a problématér
+                                                    definiálására, alkalmazások fejlesztésére, működtetésére és a működés elvárt minőségének megfelelő felügyeletére.
                                                 </p>
                                             </div>
 
@@ -180,7 +180,7 @@ const About = ({alternateStyles, activeStyle}) => {
                                                 <div className="circle-dot"></div>
                                                 <h3 className="timeline-date">
                                                     <i className="fa fa-calendar"></i>
-                                                    2021-2023
+                                                    2023-2025
                                                     <br/>
                                                     <i className="fa fa-school"></i>
                                                     <a href="https://www.nyirszikszi.hu/" target="blank">Nyíregyházi SZC Széchenyi István Technikum és Kollégium</a>
