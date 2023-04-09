@@ -42,7 +42,7 @@ const About = ({alternateStyles, activeStyle}) => {
                                         <p> Email : <span> romanholovacki@gmail.com </span> </p>
                                     </div>
                                     <div className="info-item padd-15">
-                                        <p> Végzettség : <span> Szoftverfejlesztő és tesztelő </span> <span> Gazdaságinformatikus </span> </p>
+                                        <p> Végzettség : <span> Gazdaságinformatikus </span> <span> Szoftverfejlesztő és tesztelő </span> </p>
                                     </div>
                                     <div className="info-item padd-15">
                                         <p> Telefonszám : <span> +36 20 964 0267 </span> </p>
