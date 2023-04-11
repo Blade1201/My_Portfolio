@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/My_Portfolio/static/css/main.8492d1ca.css",
-    "main.js": "/My_Portfolio/static/js/main.71528f27.js",
+    "main.js": "/My_Portfolio/static/js/main.dbe1cd9b.js",
     "static/media/mask-button-hover-effect.png": "/My_Portfolio/static/media/mask-button-hover-effect.c80f95474cb1cbe94902.png",
     "static/media/attract-hover-effect.png": "/My_Portfolio/static/media/attract-hover-effect.33fb081e712abc6d5f03.png",
     "static/media/person.jpeg": "/My_Portfolio/static/media/person.f84eff54311c5c8c8acc.jpeg",
     "static/media/gym-website.png": "/My_Portfolio/static/media/gym-website.9b0bc224c96068226e7b.png",
     "static/media/parallax-scrolling.png": "/My_Portfolio/static/media/parallax-scrolling.44f1f78dc9e76f61f211.png",
     "static/media/menu-scroll-animation.png": "/My_Portfolio/static/media/menu-scroll-animation.66b9e7663d801785f55d.png",
+    "static/media/real-estate-website.png": "/My_Portfolio/static/media/real-estate-website.3bd67d8c5c7be0b7042d.png",
     "static/media/aaron-air.png": "/My_Portfolio/static/media/aaron-air.fc862d07b527ecbc3272.png",
     "static/media/hopstop.png": "/My_Portfolio/static/media/hopstop.c6dba1407369a351afd3.png",
     "index.html": "/My_Portfolio/index.html",
     "main.8492d1ca.css.map": "/My_Portfolio/static/css/main.8492d1ca.css.map",
-    "main.71528f27.js.map": "/My_Portfolio/static/js/main.71528f27.js.map"
+    "main.dbe1cd9b.js.map": "/My_Portfolio/static/js/main.dbe1cd9b.js.map"
   },
   "entrypoints": [
     "static/css/main.8492d1ca.css",
-    "static/js/main.71528f27.js"
+    "static/js/main.dbe1cd9b.js"
   ]
 }
