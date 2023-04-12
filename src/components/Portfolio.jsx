@@ -81,6 +81,7 @@ const Portfolio = ({alternateStyles, activeStyle}) => {
                         </div>
                     </div>
                 </div>
+                <a href="https://github.com/Blade1201" className="btn margin-top" style={alternateStyles[activeStyle]}> További Projektjeim </a>
             </div>
         </section>
     );
