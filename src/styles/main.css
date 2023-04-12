@@ -15,6 +15,16 @@
      color: #FFFFFFFF;
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+    background: var(--bg-black-900);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--text-black-900);
+    border-radius: 10px;
+}
+
 body{
     line-height: 1.5;
     font-size: 16px;
