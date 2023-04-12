@@ -15,7 +15,7 @@ const About = ({alternateStyles, activeStyle}) => {
                     <div className="about-content padd-15">
                         <div className="row">
                             <div className="about-text padd-15">
-                                <h3> A nevem Holovacki Román, Frontend fejlesztő </h3>
+                                <h3> Ördögien elhivatott, aki sohasem adja fel a kítűzött céljait </h3>
                                 <p style={alternateStyles[activeStyle]}>Alapképesítések:</p>
                                 <p> Jó problémamegoldó képesség</p>
                                 <p> Készség csapatként dolgozni egy közös cél elérése érdekében</p>
