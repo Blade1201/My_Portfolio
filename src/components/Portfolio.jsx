@@ -28,63 +28,63 @@ const Portfolio = ({alternateStyles, activeStyle}) => {
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
-                                <a href="https://blade1201.github.io/Hopstop/" target="blank"> <img src={Hopstop} alt="portfolio"/></a>
+                                <a href="https://blade1201.github.io/Hopstop/"> <img src={Hopstop} alt="portfolio"/></a>
                             </div>
                         </div>
                     </div>
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
-                                <a href="https://blade1201.github.io/Real_Estate_Website/" target="blank"> <img src={Real_Estate_Website} alt="portfolio"/></a>
+                                <a href="https://blade1201.github.io/Real_Estate_Website/"> <img src={Real_Estate_Website} alt="portfolio"/></a>
                             </div>
                         </div>
                     </div>
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
-                                <a href="https://blade1201.github.io/Aaron-Air/" target="blank"> <img src={Aaron_Air} alt="portfolio"/></a>
+                                <a href="https://blade1201.github.io/Aaron-Air/"> <img src={Aaron_Air} alt="portfolio"/></a>
                             </div>
                         </div>
                     </div>
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
-                                <a href="https://blade1201.github.io/Gym_Website/" target="blank"> <img src={Gym_Website} alt="portfolio"/></a>
+                                <a href="https://blade1201.github.io/Gym_Website/"> <img src={Gym_Website} alt="portfolio"/></a>
                             </div>
                         </div>
                     </div>
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
-                                <a href="https://blade1201.github.io/Google_Form/" target="blank"> <img src={Google_Form} alt="portfolio"/></a>
+                                <a href="https://blade1201.github.io/Google_Form/"> <img src={Google_Form} alt="portfolio"/></a>
                             </div>
                         </div>
                     </div>
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
-                                <a href="https://blade1201.github.io/Parallax_Scrolling/" target="blank"> <img src={Parallax_Scrolling} alt="portfolio"/></a>
+                                <a href="https://blade1201.github.io/Parallax_Scrolling/"> <img src={Parallax_Scrolling} alt="portfolio"/></a>
                             </div>
                         </div>
                     </div>
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
-                                <a href="https://blade1201.github.io/Menu_Scroll_Animation/" target="blank"> <img src={Menu_Scroll_Animation} alt="portfolio"/></a>
+                                <a href="https://blade1201.github.io/Menu_Scroll_Animation/"> <img src={Menu_Scroll_Animation} alt="portfolio"/></a>
                             </div>
                         </div>
                     </div>
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
-                                <a href="https://blade1201.github.io/Attract_Hover_Effect/" target="blank"> <img src={Attract_Hover_Effect} alt="portfolio"/></a>
+                                <a href="https://blade1201.github.io/Attract_Hover_Effect/"> <img src={Attract_Hover_Effect} alt="portfolio"/></a>
                             </div>
                         </div>
                     </div>
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
-                                <a href="https://blade1201.github.io/Mask_Button_Hover_Effect/" target="blank"> <img src={Mask_Button_Hover_Effect} alt="portfolio"/></a>
+                                <a href="https://blade1201.github.io/Mask_Button_Hover_Effect/"> <img src={Mask_Button_Hover_Effect} alt="portfolio"/></a>
                             </div>
                         </div>
                     </div>
