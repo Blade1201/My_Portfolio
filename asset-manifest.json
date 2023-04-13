@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My_Portfolio/static/css/main.9d19b446.css",
-    "main.js": "/My_Portfolio/static/js/main.54a81aaf.js",
+    "main.js": "/My_Portfolio/static/js/main.b7d1bcf9.js",
     "static/media/mask-button-hover-effect.png": "/My_Portfolio/static/media/mask-button-hover-effect.c80f95474cb1cbe94902.png",
     "static/media/attract-hover-effect.png": "/My_Portfolio/static/media/attract-hover-effect.33fb081e712abc6d5f03.png",
     "static/media/person.jpeg": "/My_Portfolio/static/media/person.f84eff54311c5c8c8acc.jpeg",
@@ -14,10 +14,10 @@
     "static/media/google-form.png": "/My_Portfolio/static/media/google-form.059ee1482d24a3482fa1.png",
     "index.html": "/My_Portfolio/index.html",
     "main.9d19b446.css.map": "/My_Portfolio/static/css/main.9d19b446.css.map",
-    "main.54a81aaf.js.map": "/My_Portfolio/static/js/main.54a81aaf.js.map"
+    "main.b7d1bcf9.js.map": "/My_Portfolio/static/js/main.b7d1bcf9.js.map"
   },
   "entrypoints": [
     "static/css/main.9d19b446.css",
-    "static/js/main.54a81aaf.js"
+    "static/js/main.b7d1bcf9.js"
   ]
 }
