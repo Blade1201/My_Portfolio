@@ -28,7 +28,7 @@ const Contact = ({alternateStyles, activeStyle}) => {
                             <i className="fa fa-envelope"></i>
                         </div>
                         <h4> Email </h4>
-                        <p>romanholovacki@gmail.com</p>
+                        <p>molnar.aron1201@gmail.com</p>
                     </div>
                 </div>
             </div>

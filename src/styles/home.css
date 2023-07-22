@@ -34,7 +34,7 @@
     height: 80px;
     width: 80px;
     right: 20px;
-    bottom: -40px;
+    bottom: 180px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
 }
