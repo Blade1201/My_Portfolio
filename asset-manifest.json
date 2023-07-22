@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My_Portfolio/static/css/main.9d19b446.css",
-    "main.js": "/My_Portfolio/static/js/main.b7d1bcf9.js",
+    "main.css": "/My_Portfolio/static/css/main.5eb33358.css",
+    "main.js": "/My_Portfolio/static/js/main.50b8d257.js",
     "static/media/mask-button-hover-effect.png": "/My_Portfolio/static/media/mask-button-hover-effect.c80f95474cb1cbe94902.png",
     "static/media/attract-hover-effect.png": "/My_Portfolio/static/media/attract-hover-effect.33fb081e712abc6d5f03.png",
     "static/media/person.jpeg": "/My_Portfolio/static/media/person.f84eff54311c5c8c8acc.jpeg",
@@ -10,14 +10,14 @@
     "static/media/menu-scroll-animation.png": "/My_Portfolio/static/media/menu-scroll-animation.66b9e7663d801785f55d.png",
     "static/media/real-estate-website.png": "/My_Portfolio/static/media/real-estate-website.3bd67d8c5c7be0b7042d.png",
     "static/media/aaron-air.png": "/My_Portfolio/static/media/aaron-air.fc862d07b527ecbc3272.png",
-    "static/media/hopstop.png": "/My_Portfolio/static/media/hopstop.c6dba1407369a351afd3.png",
+    "static/media/evara.png": "/My_Portfolio/static/media/evara.c6dba1407369a351afd3.png",
     "static/media/google-form.png": "/My_Portfolio/static/media/google-form.059ee1482d24a3482fa1.png",
     "index.html": "/My_Portfolio/index.html",
-    "main.9d19b446.css.map": "/My_Portfolio/static/css/main.9d19b446.css.map",
-    "main.b7d1bcf9.js.map": "/My_Portfolio/static/js/main.b7d1bcf9.js.map"
+    "main.5eb33358.css.map": "/My_Portfolio/static/css/main.5eb33358.css.map",
+    "main.50b8d257.js.map": "/My_Portfolio/static/js/main.50b8d257.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d19b446.css",
-    "static/js/main.b7d1bcf9.js"
+    "static/css/main.5eb33358.css",
+    "static/js/main.50b8d257.js"
   ]
 }
